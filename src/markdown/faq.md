@@ -126,7 +126,7 @@ Indeed you can have 2 main CSS classes at the same DOM node. In BEM we call it `
 <div class="block1 block2"></div>
 ```
 
-But important thing about it is that both `block1` and `block2` should be standalone blocks. This is slightly different from what people usually mean by "global modifiers" as modifiers do not have any sense on they own and are just a set of properties to change.
+But important thing about it is that both `block1` and `block2` should be standalone blocks. This is slightly different from what people usually mean by "global modifiers" as modifiers do not have any sense on their own and are just a set of properties to change.
 
 ```html
 <div class="block globalmod"></div>
@@ -242,7 +242,7 @@ Besides the fact that the classes look much nicer, it makes the elements be depe
 <a id="global-css-resets"></a>
 ## I've heard that BEM does not recommend global CSS resets. Why?
 
-> CSS resets is a practise making a good showing. Many frameworks first align anything and then
+> CSS resets is a practice making a good showing. Many frameworks first align anything and then
 > apply their special styles. BEM does not recommend common resets. Why? And what we are supposed
 > to do instead?
 
